@@ -221,3 +221,126 @@ form{
     color: white;
 }
 }
+@media (max-width: 330px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    /*----The First Container------*/
+    .first-container {
+        display: flex;
+        justify-content: space-around;
+        background-image: url(/utils/images/hero-bg-tablet.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 40vh;
+        width: 100%;
+        padding-top: 20px;
+    }
+    .dine {
+        color: white;
+        margin-left: 90px;
+        font-size: 15px;
+        font-weight: 100px;
+    }
+    .h1-container1 {
+        color: white;
+        margin-left: 40px;
+        margin-top: 60px;
+        font-size: 30px;
+        font-weight: 100px;
+    }
+    .p-container {
+        color: white;
+        margin-left: 40px;
+        font-size: 10px;
+        font-weight: 50;
+    }
+    /*---------Form---------*/
+    form{
+        background-color: white;
+        width: 200px;
+        height: 35vh;
+        position: relative;
+        margin-left: 20px;
+        margin-bottom: -300px;
+        margin-top: 20px;
+        padding-left: 20px;
+        padding-top: 20px;
+        font-size: 10px;
+    }
+    .name{
+        width: 150px;
+        border: none;
+        border-bottom: 1px solid rgb(194, 191, 191);
+        padding-bottom: 8px;
+        font-size: 12px;
+    }
+    .email {
+        width: 150px;
+        border: none;
+        border-bottom: 1px solid rgb(194, 191, 191);
+        padding-bottom: 8px;
+        font-size: 12px;
+    }
+    .date {
+        width: 25px;
+        border: none;
+        border-bottom: 1px solid rgb(194, 191, 191);
+        margin: 0 3px 0 3px;
+        font-size: 8px;
+    }
+    .increment-decrement{
+        display: flex;
+        justify-content: space-between;   
+    }
+    .decrement {
+        margin-left: 20px;
+        border: none;
+        background-color: white;
+    }
+    .increment {
+        margin-right: 60px;
+        border: none;
+        background-color: white;
+    }
+    .button2 {
+        margin: 0 0 20px 0;
+        background-color: black;
+        padding: 3px 2px 3px 2px;
+        width: 150px;
+        color: white;
+        font-size: 10px;
+        
+    }
+    /*------The Second Container------*/
+.container-content2 {
+    padding-top: 140px;
+    padding-bottom: 30px;
+    padding-left: 26%;
+    background-image: url(utils/patterns/pattern-curve-bottom-right.svg);
+    size: 20px;
+    background-color: rgb(230, 223, 230);
+}
+/*-------The Third Container-------*/
+.container-content3 {
+    background-color: black;
+    height: 40vh;
+    padding-top: 20px;
+}
+.container-content3 {
+    color: white;
+}
+.dine2{
+    margin-left: 90px;
+}
+.marthwaite{
+    margin-top: 60px;
+    margin-left: -280px;
+}
+.open{
+    margin-top: 130px;
+    margin-left: -360px;
+}
+}
