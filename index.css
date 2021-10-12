@@ -91,7 +91,7 @@ form{
     padding-top: 100px;
     padding-bottom: 30px;
     padding-left: 45%;
-    background-image: url(/utils/patterns/pattern-curve-bottom-right.svg);
+    background-image: url(utils/patterns/pattern-curve-bottom-right.svg);
     background-color: rgb(230, 223, 230);
 }
 /*-------The Third Container-------*/
@@ -117,7 +117,7 @@ form{
     .first-container {
         display: flex;
         justify-content: space-around;
-        background-image: url(hero-bg-desktop.jpg);
+        background-image: url(/utils/images/hero-bg-tablet.jpg);
         background-position: center;
         background-size: cover;
         height: 40vh;
@@ -126,20 +126,20 @@ form{
     }
     .dine {
         color: white;
-        margin-left: -280px;
+        margin-left: -120px;
         font-size: 10px;
         font-weight: 100px;
     }
     .h1-container1 {
         color: white;
-        margin-left: -280px;
+        margin-left: -120px;
         margin-top: 60px;
         font-size: 20px;
         font-weight: 50;
     }
     .p-container {
         color: white;
-        margin-left: -280px;
+        margin-left: -120px;
         font-size: 10px;
         font-weight: 50;
     }
@@ -149,9 +149,9 @@ form{
         width: 200px;
         height: 35vh;
         position: relative;
-        margin-left: -60px;
+        margin-left: 220px;
         margin-bottom: -300px;
-        margin-top: -80px;
+        margin-top: -40px;
         padding-left: 20px;
         padding-top: 20px;
         font-size: 10px;
@@ -161,18 +161,21 @@ form{
         border: none;
         border-bottom: 1px solid rgb(194, 191, 191);
         padding-bottom: 8px;
+        font-size: 12px;
     }
     .email {
         width: 150px;
         border: none;
         border-bottom: 1px solid rgb(194, 191, 191);
         padding-bottom: 8px;
+        font-size: 12px;
     }
     .date {
-        width: 10px;
+        width: 25px;
         border: none;
         border-bottom: 1px solid rgb(194, 191, 191);
-        margin: 0 7px 0 7px;
+        margin: 0 3px 0 3px;
+        font-size: 8px;
     }
     .increment-decrement{
         display: flex;
@@ -201,7 +204,7 @@ form{
 .container-content2 {
     padding-top: 60px;
     padding-bottom: 30px;
-    padding-left: 21%;
+    padding-left: 40%;
     background-image: url(utils/patterns/pattern-curve-bottom-right.svg);
     size: 20px;
     background-color: rgb(230, 223, 230);
