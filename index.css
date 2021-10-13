@@ -16,20 +16,20 @@
 }
 .dine {
     color: white;
-    margin-left: -200px;
+    margin-left: -80px;
     font-size: 20px;
     font-weight: 100px;
 }
 .h1-container1 {
     color: white;
-    margin-left: -200px;
+    margin-left: -80px;
     margin-top: 80px;
     font-size: 60px;
     font-weight: 50;
 }
 .p-container {
     color: white;
-    margin-left: -200px;
+    margin-left: -80px;
     font-size: 15px;
     font-weight: 50;
 }
@@ -37,11 +37,11 @@
 form{
     background-color: white;
     width: 330px;
-    height: 35vh;
+    height: 36vh;
     position: relative;
     margin-left: 390px;
     margin-bottom: -300px;
-    margin-top: -70px;
+    margin-top: -20px;
     padding-left: 20px;
     padding-top: 20px;
     
@@ -97,7 +97,7 @@ form{
 /*-------The Third Container-------*/
 .container-content3 {
     background-color: black;
-    height: 20vh;
+    height: 40vh;
     padding-top: 70px;
 }
 .container-content3 {
